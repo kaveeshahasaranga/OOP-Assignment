@@ -1,0 +1,40 @@
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Change font family if desired */
+}
+
+.background-image {
+    background-image: url('path/to/your/image.png'); /* Path to your background image */
+    background-size: cover; /* Cover the whole container */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flex to center the container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    max-width: 600px; /* Max width for the form container */
+    margin: 0; /* Remove default margin */
+    padding: 2rem; /* Padding around the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h1 {
+    color: #007bff; /* Header color */
+}
+
+.form-control {
+    border-radius: 0.25rem; /* Rounded input fields */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #004085; /* Darker border on hover */
+}

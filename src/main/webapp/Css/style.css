@@ -1,0 +1,548 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background1{
+    position: relative;
+    background-color:rgb(240, 255, 240) ;
+}
+
+.background1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 70px;
+    background-image: url("../img/negombo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 116.5vh;
+    /*opacity: 0.75;*/ 
+}
+
+.container1{
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    margin-left: 8.33%;
+    margin-top: 10%;
+}
+
+.container1 h1{
+    font-family: 'Lobster', cursive;
+    font-size: 4vw;
+}
+
+.container1 p{
+    font-family: 'Lobster', cursive;
+    font-size: 3vw;
+    margin-top: 20%;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    
+}
+
+.container1 button{
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.container1 button:hover{
+    background-color: #dbdbdb;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width:768px){
+    .container1 p{
+        font-size: 3.5vw;
+        margin-top: 40%;;
+    }
+}
+
+
+
+/* background2 */
+/*
+.background2{
+    padding-bottom: 7%;
+    background-color: rgb(226, 200, 167);
+}
+
+.headingSentence{
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.set_details{
+    padding: 1%;
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+    padding: 2%;
+    background-color: rgb(235, 236, 231);
+    border-radius: 15px;
+    border-width: 3px;
+}
+
+.form_contents{
+    display: flex;
+}
+
+.drop_details{
+    margin-left: 5%;
+}
+
+.search_button{
+    margin-left: 5%;
+}
+
+.search_button button{
+    border-radius: 5px;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.search_button button:hover{
+  background-color: #dbdbdb;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+
+.set_details_form input{
+  border-radius: 5px;
+}
+
+*/
+/* background3 */
+
+.background3{
+    position: relative;
+}
+
+.background3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/Capture.PNG");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: blur(3px);
+    opacity: 0.9;
+    
+}
+
+.container_bg3{
+    position: relative;
+}
+
+.background3 h1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: 19.33%;
+    padding-top: 5%;
+    font-size: 3vw;
+    -webkit-text-stroke: 0.1px rgb(128, 236, 177);
+}
+
+.background3 p{
+    width: 30%;
+    text-align: center;
+    -webkit-text-stroke: 0.1px rgb(189, 189, 189);
+    margin-left: auto;
+    margin-right: 38.33%;
+    padding-top: 2%;
+    font-size: 1.5vw;
+}
+
+
+/* background4 */
+
+.background4{
+  background-image: url("../img/all-inclusive-ella-scenic-train-journey-with-yala-safari.jpg");
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    margin-top: 55vh;
+
+}
+
+
+.container_bg4{
+    padding-top: 35vh;
+    color: #ffffff;
+    padding-bottom: 15vh;
+    margin-left: 10.33%;
+    margin-right: 8.33%;
+}
+
+.car_categories {
+    position: relative;
+    overflow:hidden;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+.scroll_list {
+    display: flex;
+    gap: 300px;
+    padding: 0 10px;
+}
+
+
+.category img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+.category h2 {
+    margin-top: 10px;
+}
+
+.viewall_button{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.viewall_button button{
+  font-size: 2vw;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.viewall_button button:hover{
+  background-color: #000000;
+	color: #ffffff;
+  transition: 0.8s;
+}
+
+@media screen and (max-width: 768px) {
+    .scroll_list {
+      gap: 20px;
+    }
+    
+    
+    .category img {
+      width: 150px;
+      height: 100px;
+    }
+    
+    .category h2 {
+      font-size: 16px;
+    }
+    
+  }
+
+
+
+/* background4 */
+
+.background4 {
+    position: relative; 
+    height: 400px;
+  }
+  
+  .car_categories {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+  
+  .scroll_list {
+    display: flex;
+    gap: 30px;
+    padding: 0 10px; 
+  }
+  
+  .category {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+  }
+  
+  .category img {
+    
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .category h2 {
+    margin-top: 10px;
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px; 
+  }
+  
+  .prev-btn,
+  .next-btn {
+    padding: 10px;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    margin-right: 10px;
+  }
+  
+  .prev-btn:focus,
+  .next-btn:focus,
+  .prev-btn:active,
+  .next-btn:active {
+    outline: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .scroll_list {
+      gap: 20px;
+    }
+    
+    .category {
+      flex: 0 0 200px;
+    }
+    
+    .category img {
+      width: 150px;
+      height: 100px;
+    }
+    
+    .category h2 {
+      font-size: 16px;
+    }
+    
+    .navigation {
+      right: 5px; 
+    }
+  }
+  
+
+
+  /* background5 */
+  .background5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.573)), url("../img/37817600292_c5b8ce41c8_b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    
+  }
+
+  .bg5contents{
+    color: #dbdbdb;
+  }
+
+  .bg5contents h1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    font-size: 3vw;
+  }
+
+  .bg5contents p{
+    width: 30%;
+    margin-right: auto;
+    margin-left: 8.33%;
+    padding-top: 2%;
+    font-size: 1.5vw;
+  }
+
+  .bg5contents button{
+    width: auto;
+    margin-left: 8.33%;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 1.3vw;
+    cursor: pointer;
+    margin-top: 3%;
+  }
+
+  .bg5contents button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.8s;
+  }
+
+
+
+  /* background6 */
+
+  .background6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.573)), url("../img/when-is-the-best-time-to-visit-sri-lanka.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .bg5_body{
+    display: flex;
+    font-size: 3vw;
+  }
+
+  .bg6_contents{
+    margin-left: auto;
+    margin-right: auto;
+    width: 83.34%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: aliceblue;
+  }
+
+  .bg6_contents h1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    font-size: 3vw;
+    padding-bottom: 5%;
+  }
+
+
+  /* background7 */
+  
+  .background7{
+    background-color: rgb(63, 67, 69);
+    height: 450px;
+  }
+
+  .bg7_header{
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
+
+  .bg7_header h1{
+    font-size: 4vw;
+    padding-bottom: 5%;
+  }
+
+  .bg7_clients{
+    display: flex;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .bg7_clients img{
+    width: 100px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 3%;
+  }
+
+  .client{
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bg7_contents{
+    padding-bottom: 5%;
+    color: #dbdbdb; 
+  }
+
+  .bg7_contents button{
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 1.3vw;
+    margin-top: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .bg7_contents button:hover{
+    background-color: #dbdbdb;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+
+
+  /* footer */
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 6px;
+    height: 50px;
+  }
+  
+  .top-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .top-section img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .top-section h3 {
+    margin-left: 10px;
+  }
+  
+  .social-media-icons a {
+    margin-right: 5px;
+  }
+  
+  .social-media-icons img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .subtopics{
+    display: flex;
+    gap: 20%;
+  }
+  
+  .contact-details h4 {
+    margin-bottom: 10px;
+  }
+  
+  .newsletter h4, .customer-links h4 {
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #333;
+  }
+  

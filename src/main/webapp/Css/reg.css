@@ -1,0 +1,57 @@
+body {
+    background-color: #f7f9fc; /* Light background color */
+}
+
+.container {
+    max-width: 900px; /* Set a max width for the form */
+    margin-top: 50px; /* Space from the top */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    display: flex; /* Flex display for side image */
+}
+
+.form-container {
+    padding: 40px; /* Padding for form */
+    flex: 1; /* Flex-grow for form container */
+    background-color: #fff; /* White background for form */
+}
+
+h1 {
+    color: #007bff; /* Main heading color */
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Border color */
+    width: 100%; /* Full width button */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #004085; /* Darker border on hover */
+}
+
+.form-control {
+    border-radius: 10px; /* Rounded input fields */
+}
+
+.form-group label {
+    font-weight: bold; /* Bold labels */
+    color: #495057; /* Label color */
+}
+
+.image-container {
+    flex-basis: 400px; /* Fixed width for the image */
+     /* Background image */
+    background-size: cover; /* Cover the container */
+    background-position: center; /* Center the image */
+    display: flex; /* Flex display for better image handling */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    color: white; /* Text color if any */
+    text-align: center; /* Center text */
+    font-size: 24px; /* Font size */
+    padding: 20px; /* Padding for inner content */
+}

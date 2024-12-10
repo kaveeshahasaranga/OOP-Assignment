@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    background-image: url('path/to/your/background-image.jpg'); /* Set your background image */
+    background-size: cover; /* Cover the whole body */
+    background-position: center; /* Center the background */
+}
+
+h2 {
+    text-align: center; /* Centering the heading */
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center the items */
+    gap: 20px; /* Space between the cards */
+}
+
+.card {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with opacity for blur effect */
+    border: 2px solid rgb(0, 0, 0); /* Blue border */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px); /* Apply blur effect to the background */
+}
+
+.quote {
+    font-size: 1.5rem;
+    color: #007bff;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.quote::before {
+    content: "“"; /* Quote start */
+    font-size: 3rem;
+    color: #007bff;
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    opacity: 0.3;
+}
+
+.quote::after {
+    content: "”"; /* Quote end */
+    font-size: 3rem;
+    color: #007bff;
+    position: absolute;
+    right: -10px;
+    bottom: -20px;
+    opacity: 0.3;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
